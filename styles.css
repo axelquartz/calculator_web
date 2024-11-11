@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -24,6 +25,10 @@ html {
 
 #screen {
   width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 20px;
+  align-items: center;
   height: 112px;
   border-radius: 32px;
 
@@ -53,10 +58,11 @@ html {
 
 h2 {
   font-size: 3rem;
+  color: white;
 }
 
 /* Individual Buttons */
 
 .equal {
-  background-color: white;
+  background-color: #222;
 }
